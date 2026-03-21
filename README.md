@@ -1,29 +1,34 @@
-# AI-Based Disease Prediction System
+# AI-Based Disease Prediction using Machine Learning
 
-This project uses Machine Learning techniques to predict the presence of disease based on patient data.
+## Overview
+This project predicts the presence of disease using machine learning models based on patient medical data.
 
-## Models Used:
+## Problem Statement
+To build a predictive model that classifies whether a patient has a disease using clinical attributes.
+
+## Dataset
+The dataset includes features such as age, cholesterol, heart rate, and other health indicators.
+
+## Workflow
+- Data Loading and Preprocessing
+- Exploratory Data Analysis
+- Model Building (Logistic Regression & Random Forest)
+- Model Evaluation (Accuracy & Confusion Matrix)
+- Feature Importance Analysis
+
+## Models Used
 - Logistic Regression
 - Random Forest
 
-## Features:
-- Data preprocessing and analysis
-- Model training and evaluation
-- Accuracy comparison between models
-- Confusion Matrix visualization
-- Feature importance analysis
+## Results
+Random Forest achieved better accuracy compared to Logistic Regression.
 
-## Technologies:
+## Tech Stack
 - Python
 - Pandas
 - Scikit-learn
-- Matplotlib & Seaborn
+- Matplotlib
+- Seaborn
 
-## Result:
-The Random Forest model achieved higher accuracy compared to Logistic Regression, demonstrating improved prediction capability.
-
-## Dataset:
-Heart Disease dataset
-
-## Project File:
-The full implementation is available in the Jupyter Notebook (.ipynb)
+## Project File
+Refer to `AI_Disease_Prediction.ipynb` for full implementation.
